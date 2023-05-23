@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 001</title>
+    <style>
+        body{
+            background:rgb(125, 125, 255);
+        }
+        .main{
+            background-color: #fff;
+            color: rgb(40, 39, 39);
+            border-radius: 10px;
+            display: block;
+            margin: 50px;
+            text-align: center;
+            padding: 0 50px 0 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Hello</h1>
+    </div>
+
+    <script>
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('Digite outro número: '))
+
+        soma = n1 + n2
+        sub = n1 - n2
+        mult = n1 * n2
+        div = n1 / n2
+
+        window.alert(`A soma entre ${n1} e ${n2} é ${soma}`)
+        window.alert(`A substração dos ${n1} e ${n2} é ${sub}`)
+        window.alert('A multiplicação dos números é ' + mult)
+        window.alert('A divisão dos valores é ' + div)
+        window.alert('transformando a soma em String'+ String(soma)) // por algum motivo a conversão para String não deu certo :(
+    </script>
+</body>
+</html>
