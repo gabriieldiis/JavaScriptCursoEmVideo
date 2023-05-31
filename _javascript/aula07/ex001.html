@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 001</title>
+    <style>
+        body{
+            background:rgb(125, 125, 255);
+        }
+        .main{
+            background-color: #fff;
+            color: rgb(40, 39, 39);
+            border-radius: 10px;
+            display: block;
+            margin: 50px;
+            text-align: center;
+            padding: 0 50px 0 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1 class="content">Calculos</h1>
+    </div>
+
+    <script>
+        var a =window.prompt('Digite um número: ')
+        var b = window.prompt('Digite outro número: ')
+        var c = window.prompt('Digite mais um número: ')
+
+        var d = (17 * a) - b - c
+        var e = d + a
+        document.querySelector('h1.content').innerText = `O resultado é igual à ${e}`
+
+    </script>
+</body>
+</html>
